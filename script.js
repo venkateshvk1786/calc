@@ -12,8 +12,8 @@ function calculate(){
     alert('invaild operation')
   }
 }
-function clear(){
-  outputScreen.value ="";
+function Clear(){
+  outputScreen.value = "";
 }
 function del (){
   outputScreen.value = outputScreen.value.slice(0,-1)
